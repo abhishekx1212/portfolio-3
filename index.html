@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+
+<body>
+    <div class="bg-lines">
+        <div class="bg-lines-1"></div>
+        <div class="bg-lines-2"></div>
+        <div class="bg-lines-3"></div>
+        <div class="bg-lines-4"></div>
+    </div>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="row px-1">
+                <div class="header-content d-flex justify-content-between">
+                    <div class="head-title">
+                        <h1 class="py-4">
+                            TRIGON
+                            <span class="stroke-text">1212</span>
+                        </h1>
+                    </div>
+                    <div class="icon-title pt-2 d-none d-md-block">
+                        <span class="py-1 inner-icons px-1 rounded-4 shadow-lg">
+                            <a class="m-2"><i class="fa-solid fa-moon"></i></a>
+                            <a class="m-0"><i class="fa-solid fa-sun"></i></a>
+                        </span>
+                        <span><a href="">FB</a></span>
+                        <span><a href="">TW</a></span>
+                        <span><a href="">IG</a></span>
+                        <span><a href="">WH</a></span>
+                    </div>
+                    <div class="mobile-bar d-md-none">
+                        <span data-bs-toggle="offcanvas" data-bs-target="#canvas_mobile"
+                            aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></span>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas_mobile"
+                            aria-labelledby="offcanvasScrollingLabel">
+                            <div class="offcanvas-header align-items-baseline">
+                                <h2>INBOX</h2>
+                                <button type="button" class="btn-close btn-danger" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="mobile-icon-title ">
+                                    <span><a href="">FB</a></span>
+                                    <span><a href="">TW</a></span>
+                                    <span><a href="">IG</a></span>
+                                    <span><a href="">WH</a></span>
+                                </div>
+                                <div class="mobile-switch mt-3">
+                                    <span class="inner-icons">
+                                        <span>Dark Mode</span>
+                                        <a class=""><i class="fa-solid fa-moon"></i></a>
+                                        <a class=""><i class="fa-solid fa-sun"></i></a>
+                                    </span>
+                                </div>
+                                <div class="mobile-info mt-3">
+                                    <h2>Abhishek Khachar</h2>
+                                    <h2 class="mt-3">FullStack Developer</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-lg-none px-1">
+                <div class="col-12 ">
+                    <div class="header-content-2">
+                        <ul class="nav nav-tabs border-0 justify-content-center align-items-center">
+                            <li class="nav-item">
+                                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#home-tab">
+                                    A
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#portfolio-tab">
+                                    P
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#service-tab">
+                                    S
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#testimonial-tab">
+                                    T
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#resume-tab">
+                                    R
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#blog-tab">
+                                    B
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#contact-tab">
+                                    C
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main" id="main">
+        <div class="container">
+            <div class="row px-1 px-lg-0 mt-3 mt-lg-0">
+                <div class="col-xl-3 col-lg-4">
+                    <div class="sidebar p-4 d-none d-lg-block">
+                        <ul class="nav nav-tabs flex-column">
+                            <li class="nav-item">
+                                <button class="nav-link active " data-bs-toggle="tab" data-bs-target="#home-tab">
+                                    ABOUT ME
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#portfolio-tab">
+                                    PORTFOLIO
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#service-tab">
+                                    SERVICES
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#testimonial-tab">
+                                    TESTIMONIAL
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#resume-tab">
+                                    RESUME
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#blog-tab">
+                                    BLOG
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#contact-tab">
+                                    CONTACT
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8 pb-3">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="home-tab">
+                            <div class="about px-4 py-4 p-sm-5 shadow" id="about">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="about-img shadow-lg"></div>
+                                    </div>
+                                    <div class="col-xl-8">
+                                        <div class="about-content ps-xl-3">
+                                            <h6 class="general-heading mt-3">
+                                                ABOUT
+                                            </h6>
+                                            <h1 class="mt-4">
+                                                Full Stack Developer.
+                                            </h1>
+                                            <div class="about-lang d-flex flex-wrap mt-3">
+                                                <div class="lan-cont py-2 px-3 me-2 mb-2" style="border-radius:25px;">
+                                                    <span><i class="fa-brands fa-html5"></i> HTML5 & CSS3(94%)</span>
+                                                </div>
+                                                <div class="lan-cont py-2 px-3 me-2 mb-2" style="border-radius:25px;">
+                                                    <span><i class="fa-brands fa-bootstrap"></i> Bootstrap (98%)</span>
+                                                </div>
+                                                <div class="lan-cont py-2 px-3 mb-2" style="border-radius:25px;">
+                                                    <span><i class="fa-solid fa-magnifying-glass"></i> SEO (75%)</span>
+                                                </div>
+                                            </div>
+                                            <p class="mt-2 mt-sm-1">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore et dolore magna aliqua
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="about-numbers d-flex align-items-center">
+                                            <div class="num-er pe-2">
+                                                <h1>12</h1>
+                                            </div>
+                                            <div class="num-cont">
+                                                <h3 style="line-height:0.5;">+</h3>
+                                                <span>YEARS OF EXPERIENCE</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="about-numbers d-flex align-items-center">
+                                            <div class="num-er pe-2">
+                                                <h1>90</h1>
+                                            </div>
+                                            <div class="num-cont">
+                                                <h3 style="line-height:0.5;">+</h3>
+                                                <span>PROJECTS DONE</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="about-numbers d-flex align-items-center">
+                                            <div class="num-er pe-2">
+                                                <h1>20</h1>
+                                            </div>
+                                            <div class="num-cont">
+                                                <h3 style="line-height:0.4;">k</h3>
+                                                <span>HOURS OF WORKING</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="portfolio-tab">
+                            <div class="portfolio shadow py-4 py-sm-5" id="portfolio">
+                                <div class="row px-4 px-sm-5">
+                                    <div class="col-md-11 col-xl-8">
+                                        <div class="general-content">
+                                            <h6 class="general-heading">
+                                                PORTFOLIO
+                                            </h6>
+                                            <h1>My Latest Works</h1>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="portfolio-content-2">
+                                            <ul class="nav nav-tabs mt-3 px-4 px-sm-5">
+                                                <li class="nav-item">
+                                                    <button class="nav-link active mb-2" data-bs-toggle="tab"
+                                                        data-bs-target="#all">Show all</button>
+                                                </li>
+                                                <li class="nav-item mx-2">
+                                                    <button class="nav-link" data-bs-toggle="tab"
+                                                        data-bs-target="#portfolio-in">Portfolio</button>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <button class="nav-link" data-bs-toggle="tab"
+                                                        data-bs-target="#e-commerce">E-commerce</button>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content mt-3 px-3 px-sm-5">
+                                                <div class="tab-pane fade show active" id="all">
+                                                    <div class="row gy-4">
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-1.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-2.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-3.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-4(2).png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-5.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-6.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="portfolio-in">
+                                                    <div class="row gy-4">
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-1.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-2.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-3.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="e-commerce">
+                                                    <div class="row gy-4">
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-4.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-5.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-6">
+                                                            <div class="portfolio-img">
+                                                                <img src="assets/images/po-6.png" class="shadow-lg"
+                                                                    alt="">
+                                                                <div class="port-icon">
+                                                                    <a href="">
+                                                                        <i class="fa-solid fa-eye"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="service-tab">
+                            <div class="service shadow px-4 py-4 p-sm-5" id="service">
+                                <div class="row">
+                                    <div class="col-md-11 col-xl-8">
+                                        <div class="general-content">
+                                            <h6 class="general-heading">
+                                                SERVICE
+                                            </h6>
+                                            <h1>What I do </h1>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row-border pt-3 py-2 py-xl-4">
+                                    <div class="col-xl-6">
+                                        <div class="service-content-1">
+                                            <div class="service-numbers d-flex align-items-center flex-wrap">
+                                                <div class="num-er pe-4">
+                                                    <h1>01</h1>
+                                                </div>
+                                                <div class="num-cont">
+                                                    <span class="d-block">
+                                                        <i class="fa-solid fa-code"></i>
+                                                    </span>
+                                                    <span>WEB & MOBILE DEVELOPMENT</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 mt-2 mt-sm-0">
+                                        <div class="service-content-2">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore et dolore magna aliqua
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row-border pt-3 py-2 py-xl-4">
+                                    <div class="col-xl-6">
+                                        <div class="service-content-1">
+                                            <div class="service-numbers d-flex align-items-center flex-wrap">
+                                                <div class="num-er pe-4">
+                                                    <h1>02</h1>
+                                                </div>
+                                                <div class="num-cont">
+                                                    <span class="d-block">
+                                                        <i class="fa-solid fa-laptop"></i>
+                                                    </span>
+                                                    <span>DIGITAL MARKETING</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 mt-2 mt-sm-0">
+                                        <div class="service-content-2">
+                                            <p>
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                                ut
+                                                aliquip ex ea commodo consequat
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row-border pt-3 py-2 py-xl-4">
+                                    <div class="col-xl-6">
+                                        <div class="service-content-1">
+                                            <div class="service-numbers d-flex align-items-center flex-wrap">
+                                                <div class="num-er pe-4">
+                                                    <h1>03</h1>
+                                                </div>
+                                                <div class="num-cont">
+                                                    <span class="d-block">
+                                                        <i class="fa-solid fa-gear"></i>
+                                                    </span>
+                                                    <span>BRANDING & STRATEGY</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 mt-2 mt-sm-0">
+                                        <div class="service-content-2">
+                                            <p>
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore eu
+                                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row-border pt-3 py-2 py-xl-4">
+                                    <div class="col-xl-6">
+                                        <div class="service-content-1">
+                                            <div class="service-numbers d-flex align-items-center flex-wrap">
+                                                <div class="num-er pe-4">
+                                                    <h1>04</h1>
+                                                </div>
+                                                <div class="num-cont">
+                                                    <span class="d-block">
+                                                        <i class="fa-regular fa-user"></i>
+                                                    </span>
+                                                    <span>USER TESTING & PERSONALS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 mt-2 mt-sm-0">
+                                        <div class="service-content-2">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore et dolore magna aliqua
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="testimonial-tab">
+                            <div class="testimonial shadow px-4 py-4 p-sm-5" id="testimonial">
+                                <div class="row">
+                                    <div class="col-md-11 col-xl-8">
+                                        <div class="general-content">
+                                            <h6 class="general-heading">
+                                                WHAT PEOPLE SAY
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-content  ps-3 ps-lg-3 pe-lg-0  pt-3">
+                                                    <div class="testimonial-quote">
+                                                        <span><i
+                                                                class="fa-solid fa-quote-left fa-rotate-180"></i></span>
+                                                    </div>
+                                                    <div class="testimonial-star">
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                    </div>
+                                                    <p class="mt-3">
+                                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                        massa.
+                                                        Cum
+                                                        sociis natoque penatibus et magnis
+                                                    </p>
+                                                    <div class="testimonial-inn-cont d-flex align-items-center">
+                                                        <div class="testimonial-img me-3">
+                                                            <img src="assets/images/testimonial-2.jpg" alt="">
+                                                        </div>
+                                                        <div class="testimonial-name">
+                                                            <h5 class="fw-semibold">Sandra Radford</h5>
+                                                            <span>Product Manager</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-content  ps-3 ps-lg-3 pe-lg-0  pt-3">
+                                                    <div class="testimonial-quote">
+                                                        <span><i
+                                                                class="fa-solid fa-quote-left fa-rotate-180"></i></span>
+                                                    </div>
+                                                    <div class="testimonial-star">
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                    </div>
+                                                    <p class="mt-3">
+                                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                        massa.
+                                                        Cum
+                                                        sociis natoque penatibus et magnis
+                                                    </p>
+                                                    <div class="testimonial-inn-cont d-flex align-items-center">
+                                                        <div class="testimonial-img me-3">
+                                                            <img src="assets/images/testimonial-1.jpg" alt="">
+                                                        </div>
+                                                        <div class="testimonial-name">
+                                                            <h5 class="fw-semibold">Richard Styers</h5>
+                                                            <span>CTO - Flathemes</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-content  ps-3 ps-lg-3 pe-lg-0  pt-3">
+                                                    <div class="testimonial-quote">
+                                                        <span><i
+                                                                class="fa-solid fa-quote-left fa-rotate-180"></i></span>
+                                                    </div>
+                                                    <div class="testimonial-star">
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                        <span><i class="fa-solid fa-star"></i></span>
+                                                    </div>
+                                                    <p class="mt-3">
+                                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                        massa.
+                                                        Cum
+                                                        sociis natoque penatibus et magnis
+                                                    </p>
+                                                    <div class="testimonial-inn-cont d-flex align-items-center">
+                                                        <div class="testimonial-img me-3">
+                                                            <img src="assets/images/testimonial-3.jpg" alt="">
+                                                        </div>
+                                                        <div class="testimonial-name">
+                                                            <h5 class="fw-semibold">Donald Ang</h5>
+                                                            <span>Developer</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 pt-5">
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="resume-tab">
+                            <div class="resume shadow px-4 py-4 p-sm-5" id="resume">
+                                <div class="row">
+                                    <div class="col-md-11 col-xl-8">
+                                        <div class="general-content">
+                                            <h6 class="general-heading">
+                                                RESUME
+                                            </h6>
+                                            <h1>Education & Experience</h1>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="resume-content ps-4 ">
+                                            <div class="resume-box">
+                                                <span><i class="bi bi-mortarboard mb-2"></i></span>
+                                                <div class="resume-date">
+                                                    <span>2020 - 2023</span>
+                                                </div>
+                                                <h5 style="margin-top: -5px;">Bachelor Degree of Business</h5>
+                                                <p>
+                                                    @ University of Business
+                                                </p>
+                                            </div>
+                                            <div class="resume-box mt-4">
+                                                <div class="resume-date">
+                                                    <span>2018 - 2020</span>
+                                                </div>
+                                                <h5 style="margin-top: -5px;">Master Degree of Design</h5>
+                                                <p>
+                                                    @ University of IT
+                                                </p>
+                                            </div>
+                                            <div class="resume-box mt-4">
+                                                <div class="resume-date">
+                                                    <span>2014 - 2018</span>
+                                                </div>
+                                                <h5 style="margin-top: -5px;">Bachelor Degree of Design</h5>
+                                                <p>
+                                                    @ University of Design
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 mt-3 mt-xl-0">
+                                        <div class="resume-content ps-4">
+                                            <div class="resume-box">
+                                                <span><i class="bi bi-briefcase  mb-2"></i></span>
+                                                <div class="resume-date">
+                                                    <span>2020 - PRESENT</span>
+                                                </div>
+                                                <h5 style="margin-top: -5px;">Director of Operations</h5>
+                                                <p>
+                                                    @ FlaTheme
+                                                </p>
+                                            </div>
+                                            <div class="resume-box mt-4">
+                                                <div class="resume-date">
+                                                    <span>2018 - 2020</span>
+                                                </div>
+                                                <h5 style="margin-top: -5px;">Senior Designer</h5>
+                                                <p>
+                                                    @ FlaTheme
+                                                </p>
+                                            </div>
+                                            <div class="resume-box mt-4">
+                                                <div class="resume-date">
+                                                    <span>2015 - 2018</span>
+                                                </div>
+                                                <h5 style="margin-top: -5px;">UI & UX Designer</h5>
+                                                <p>
+                                                    @ FlaTheme
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clients shadow mt-3 px-4 py-4 p-sm-5" id="clients">
+                                <div class="row">
+                                    <div class="col-md-11 col-xl-8">
+                                        <div class="general-content">
+                                            <h6 class="general-heading">
+                                                MY AWESOME CLIENTS
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="swiper mySwiper2">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="clients-content">
+                                                    <img src="assets/images/client-1.png" alt="" id="cl-1">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="clients-content">
+                                                    <img src="assets/images/client-2.png" alt="" id="cl-2">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="clients-content">
+                                                    <img src="assets/images/client-3.png" alt="" id="cl-3">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="clients-content">
+                                                    <img src="assets/images/client-4.png" alt="" id="cl-4">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="clients-content">
+                                                    <img src="assets/images/client-5.png" alt="" id="cl-5">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="clients-content">
+                                                    <img src="assets/images/client-6.png" alt="" id="cl-6">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="blog-tab">
+                            <div class="blog shadow px-4 py-4 p-sm-5" id="blog">
+                                <div class="row">
+                                    <div class="col-md-11 col-xl-8">
+                                        <div class="general-content">
+                                            <h6 class="general-heading">
+                                                BLOG
+                                            </h6>
+                                            <h1>Latest Blog Posts</h1>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-xl-5">
+                                        <div class="blog-img">
+                                            <img src="assets/images/blog-post-1.jpg" alt="" width="100%"
+                                                style="border-radius: 9px;">
+                                            <div class="blog-tag">
+                                                <a href=""><span>EXPERIENCE</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-7 mt-2 mt-xl-0">
+                                        <div class="blog-info">
+                                            <span style="font-size: 17px;">Posted on Aug 28</span>
+                                            <h2 style="line-height: 1.1;">
+                                                4 years of working from home
+                                            </h2>
+                                            <div class="blog-btn">
+                                                <button class="btn"><span>Read more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center mt-xl-4 margin-top">
+                                    <div class="col-xl-5">
+                                        <div class="blog-img">
+                                            <img src="assets/images/blog-post-2.jpg" alt="" width="100%"
+                                                style="border-radius: 9px;">
+                                            <div class="blog-tag">
+                                                <a href=""><span>HEALTH</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-7 mt-2 mt-xl-0">
+                                        <div class="blog-info">
+                                            <span style="font-size: 17px;">Posted on Aug 27</span>
+                                            <h2 style="line-height: 1.1;">
+                                                Importance of outdoor times
+                                            </h2>
+                                            <div class="blog-btn">
+                                                <button class="btn"><span>Read more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center mt-xl-4 margin-top">
+                                    <div class="col-xl-5">
+                                        <div class="blog-img">
+                                            <img src="assets/images/blog-post-3.jpg" alt="" width="100%"
+                                                style="border-radius: 9px;">
+                                            <div class="blog-tag">
+                                                <a href=""><span>FOODS & DRINKS</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-7 mt-2 mt-xl-0">
+                                        <div class="blog-info">
+                                            <span style="font-size: 17px;">Posted on Aug 26</span>
+                                            <h2 style="line-height: 1.1;">
+                                                Fun drinks to make at home
+                                            </h2>
+                                            <div class="blog-btn">
+                                                <button class="btn"><span>Read more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center mt-xl-4 margin-top">
+                                    <div class="col-xl-5">
+                                        <div class="blog-img">
+                                            <img src="assets/images/blog-post-4.jpg" alt="" width="100%"
+                                                style="border-radius: 9px;">
+                                            <div class="blog-tag">
+                                                <a href=""><span>HEALTH</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-7 mt-2 mt-xl-0">
+                                        <div class="blog-info">
+                                            <span style="font-size: 17px;">Posted on Aug 25</span>
+                                            <h2 style="line-height: 1.1;">
+                                                Benefits of eating healthy
+                                            </h2>
+                                            <div class="blog-btn">
+                                                <button class="btn"><span>Read more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact-tab">
+                            <div class="contact shadow px-4 py-4 p-sm-5" id="contact">
+                                <div class="row">
+                                    <div class="col-md-11 col-xl-8">
+                                        <div class="general-content">
+                                            <h6 class="general-heading">
+                                                GET IN TOUCH
+                                            </h6>
+                                            <h1>Let's Connect</h1>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore
+                                            </p>
+                                        </div>
+                                        <div class="contact-content  d-flex flex-wrap">
+                                            <div class="contact-num me-2 mb-2">
+                                                <span>Phone: +976 12 34 99 99</span>
+                                            </div>
+                                            <div class="contact-num mb-2">
+                                                <span>Email: flatheme@gmail.com</span>
+                                            </div>
+                                            <div class="contact-num mb-2">
+                                                <span>Address: 121 King St, Melbourne VIC 3000</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-1 mt-xl-5 gy-4">
+                                    <div class="col-xl-6">
+                                        <div class="contact-content-2">
+                                            <input type="text" name="" id=""
+                                                class="form-control contact-input px-0 pb-2" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="contact-content-2">
+                                            <input type="email" name="" id=""
+                                                class="form-control contact-input px-0 pb-2" placeholder="M-mail">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="contact-content-2">
+                                            <input type="text" name="" id=""
+                                                class="form-control contact-input px-0 pb-2" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="contact-content-2">
+                                            <textarea name="" id="" cols="30" rows="5"
+                                                class="form-control contact-input px-0 pb-0"
+                                                placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <button class="btn contact-btn">
+                                            <span>Send Message</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="map mt-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="map-content shadow-lg p-0" style="border-radius:13px ;">
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46175.819225845786!2d-79.45825887832027!3d43.6692048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b35c0f5438889%3A0xb6fc83fefa89e654!2sBrass%20Rail%20Tavern!5e0!3m2!1sen!2sin!4v1701611683278!5m2!1sen!2sin"
+                                                width="100%" height="350px" allowfullscreen="" loading="lazy"
+                                                referrerpolicy="no-referrer-when-downgrade" class="shadow-lg"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/jq/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $('.fa-sun').css({ 'display': 'none' })
+
+        $('.fa-moon').click(function (e) {
+            e.preventDefault()
+
+            $(':root').css({ '--body': 'black' })
+            $(':root').css({ '--black-text': 'white' })
+            $(':root').css({ '--sidebar-color': '#1c1e20' })
+            $(':root').css({ '--tab-backgroud': '#1c1e20' })
+            $(':root').css({ '--body-text': '#afb4b7' })
+            $(':root').css({ '--resume-date': 'rgba(225, 225, 225, 0.6)' })
+            $('#cl-1').attr("src", "assets/images/client-1-light.png")
+            $('#cl-2').attr("src", "assets/images/client-2-light.png")
+            $('#cl-3').attr("src", "assets/images/client-3-light.png")
+            $('#cl-4').attr("src", "assets/images/client-4-light.png")
+            $('#cl-5').attr("src", "assets/images/client-5-light.png")
+            $('#cl-6').attr("src", "assets/images/client-6-light.png")
+            $('.fa-sun').css({ 'display': 'inline' })
+            $('.fa-moon').css({ 'display': 'none' })
+        })
+
+        $('.fa-sun').click(function (e) {
+            e.preventDefault()
+
+            $(':root').css({ '--body': '#f2f5f8' })
+            $(':root').css({ '--black-text': 'black' })
+            $(':root').css({ '--sidebar-color': 'black' })
+            $(':root').css({ '--tab-backgroud': 'white' })
+            $(':root').css({ '--body-text': '#838485' })
+            $(':root').css({ '--resume-date': 'rgba(0, 0, 0, 0.3)' })
+            $('#cl-1').attr("src", "assets/images/client-1.png")
+            $('#cl-2').attr("src", "assets/images/client-2.png")
+            $('#cl-3').attr("src", "assets/images/client-3.png")
+            $('#cl-4').attr("src", "assets/images/client-4.png")
+            $('#cl-5').attr("src", "assets/images/client-5.png")
+            $('#cl-6').attr("src", "assets/images/client-6.png")
+            $('.fa-moon').css({ 'display': 'inline' })
+            $('.fa-sun').css({ 'display': 'none' })
+        })
+    })
+</script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        autoplay: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 30,
+            },
+            1200: {
+                slidesPerView: 2,
+                spaceBetween: 26,
+            },
+        },
+    });
+
+    var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        autoplay: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            576: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            1200: {
+                slidesPerView: 5,
+                spaceBetween: 40,
+            },
+        },
+    });
+</script>
